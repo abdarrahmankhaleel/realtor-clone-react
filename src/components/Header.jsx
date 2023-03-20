@@ -20,10 +20,10 @@ export default function Header() {
                  border-b-[3px] border-b-transparent
                  ${IspathMatchRoute("/") && "text-black border-b-red-500"}               
                 `}>Home</li>
-                <li onClick={()=>navigate("/sign-in")} className={`cursor-pointer py-3 text-sm
+                <li onClick={()=>navigate("/sign-up")} className={`cursor-pointer py-3 text-sm
                  font-semibold text-gray-400 
                  border-b-[3px] border-b-transparent
-                 ${IspathMatchRoute("/sign-in") && "text-black border-b-red-500"}               
+                 ${IspathMatchRoute("/sign-up") && "text-black border-b-red-500"}               
                 `}>SignUp</li>
                 <li onClick={()=>navigate("/offers")} className={`cursor-pointer py-3 text-sm
                  font-semibold text-gray-400 
